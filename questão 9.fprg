@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="asus"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-20 08:33:49 "/>
+        <attribute name="created" value="YXN1cztBU1VTUEM7MjAyNC0wMy0wNjsiMDU6MTM6MTIgIjsyMDkx"/>
+        <attribute name="edited" value="YXN1cztBU1VTUEM7MjAyNC0wMy0wNjsiMDU6MjI6MDQgIjszOzIyMDI="/>
+        <attribute name="edited" value="bG9oYW47Qk9PSy1BMlZLQ01OREhUOzIwMjQtMDMtMjA7IjA4OjMzOjQ5ICI7MTsyODk5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, resultado" type="Integer" array="False" size=""/>
+            <output expression="&quot;digite o dividendo&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;digite o divisor&quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="resultado" expression="a/b + 0.5"/>
+            <output expression="&quot;divis&#227;o arredondada &quot; &amp; resultado" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

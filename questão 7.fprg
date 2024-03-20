@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="asus"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-20 08:31:03 "/>
+        <attribute name="created" value="YXN1cztBU1VTUEM7MjAyNC0wMy0wNjsiMDQ6MDQ6NTIgIjsyMDk0"/>
+        <attribute name="edited" value="YXN1cztBU1VTUEM7MjAyNC0wMy0wNjsiMDU6MTI6NTQgIjsyOzIyMDU="/>
+        <attribute name="edited" value="bG9oYW47Qk9PSy1BMlZLQ01OREhUOzIwMjQtMDMtMjA7IjA4OjMxOjAzICI7MTsyODg3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, resultado" type="Real" array="False" size=""/>
+            <output expression="&quot;digite um valor&quot;" newline="True"/>
+            <input variable="x"/>
+            <output expression="ToFixed(x, 2)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="asus"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-20 08:28:49 "/>
+        <attribute name="created" value="YXN1cztBU1VTUEM7MjAyNC0wMy0wNjsiMDU6MDE6MzAgIjsyMDg4"/>
+        <attribute name="edited" value="YXN1cztBU1VTUEM7MjAyNC0wMy0wNjsiMDU6MDY6MjMgIjsxOzIyMDM="/>
+        <attribute name="edited" value="bG9oYW47Qk9PSy1BMlZLQ01OREhUOzIwMjQtMDMtMjA7IjA4OjI4OjQ5ICI7MTsyOTAz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, auxiliar" type="Integer" array="False" size=""/>
+            <output expression="&quot;digite um valor pra a&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;digite um valor pra b&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;antes da troca a=&quot;&amp; a &amp; &quot;, b=&quot; &amp; b" newline="True"/>
+            <assign variable="auxiliar" expression="a"/>
+            <assign variable="a" expression="b"/>
+            <assign variable="b" expression="auxiliar"/>
+            <output expression="&quot;depois da troca a=&quot;&amp; a &amp; &quot;, b=&quot; &amp; b" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
