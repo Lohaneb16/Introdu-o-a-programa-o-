@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="asus"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-21 08:29:18 "/>
+        <attribute name="created" value="YXN1cztBU1VTUEM7MjAyNC0wMy0wNjsiMDY6MzQ6MTMgIjsyMDk2"/>
+        <attribute name="edited" value="YXN1cztBU1VTUEM7MjAyNC0wMy0wNjsiMDY6Mzc6MTggIjsxOzIyMTI="/>
+        <attribute name="edited" value="bG9oYW47Qk9PSy1BMlZLQ01OREhUOzIwMjQtMDMtMjE7IjA4OjI5OjE4ICI7MTsyOTAx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero1, numero2, numero3" type="Real" array="False" size=""/>
+            <output expression="&quot;digite o primeiro n&#250;mero&quot;" newline="True"/>
+            <input variable="numero1"/>
+            <output expression="&quot;digite o segundo n&#250;mero&quot;" newline="True"/>
+            <input variable="numero2"/>
+            <output expression="&quot;digite o terceiro n&#250;mero&quot;" newline="True"/>
+            <input variable="numero3"/>
+            <if expression="numero1 &lt;= numero2 and numero2 &lt;= numero3">
+                <then>
+                    <output expression="&quot;crescente&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="numero1 &gt;= numero2 and numero2 &gt;= numero3">
+                        <then>
+                            <output expression="&quot;decrescente&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;fora de ordem&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
